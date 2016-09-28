@@ -1,0 +1,39 @@
+09:27:07.362 INFO - Launching a standalone Selenium Server
+09:27:07.511 INFO - Java: Oracle Corporation 25.91-b15
+09:27:07.511 INFO - OS: Windows 10 10.0 amd64
+09:27:07.525 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+09:27:07.593 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+09:27:07.593 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+09:27:07.604 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+09:27:07.604 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+09:27:07.605 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+09:27:07.797 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+09:27:07.797 INFO - Selenium Server is up and running
+09:27:08.139 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Google Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+09:27:08.154 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Google Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+09:27:14.092 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Google Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+09:27:14.110 INFO - Executing: [get: http://www.google.com])
+09:27:16.636 INFO - Done: [get: http://www.google.com]
+09:27:16.647 INFO - Executing: [find elements: By.cssSelector: body])
+09:27:16.922 INFO - Done: [find elements: By.cssSelector: body]
+09:27:16.930 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on WINDOWS (826b08bb-bfa0-40e5-a19a-95c5d43da455)] -> css selector: body]])
+09:27:16.950 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on WINDOWS (826b08bb-bfa0-40e5-a19a-95c5d43da455)] -> css selector: body]]
+09:27:16.958 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+09:27:16.984 INFO - Done: [find element: By.cssSelector: input[type=text]]
+09:27:16.989 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on WINDOWS (826b08bb-bfa0-40e5-a19a-95c5d43da455)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+09:27:17.079 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on WINDOWS (826b08bb-bfa0-40e5-a19a-95c5d43da455)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
+09:27:17.088 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
+09:27:17.102 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
+09:27:17.106 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on WINDOWS (826b08bb-bfa0-40e5-a19a-95c5d43da455)] -> css selector: button[name=btnG]]])
+09:27:17.125 INFO - Done: [is displayed: 2 [[FirefoxDriver: firefox on WINDOWS (826b08bb-bfa0-40e5-a19a-95c5d43da455)] -> css selector: button[name=btnG]]]
+09:27:17.129 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
+09:27:17.144 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
+09:27:17.148 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on WINDOWS (826b08bb-bfa0-40e5-a19a-95c5d43da455)] -> css selector: button[name=btnG]]])
+09:27:17.263 INFO - Done: [click: 2 [[FirefoxDriver: firefox on WINDOWS (826b08bb-bfa0-40e5-a19a-95c5d43da455)] -> css selector: button[name=btnG]]]
+09:27:18.272 INFO - Executing: [find element: By.cssSelector: #main])
+09:27:18.612 INFO - Done: [find element: By.cssSelector: #main]
+09:27:18.616 INFO - Executing: [get text: 3 [[FirefoxDriver: firefox on WINDOWS (826b08bb-bfa0-40e5-a19a-95c5d43da455)] -> css selector: #main]])
+09:27:21.191 INFO - Done: [get text: 3 [[FirefoxDriver: firefox on WINDOWS (826b08bb-bfa0-40e5-a19a-95c5d43da455)] -> css selector: #main]]
+09:27:21.198 INFO - Executing: [delete session: 52959bef-e80b-4628-b212-3c2054155380])
+09:27:22.095 INFO - Done: [delete session: 52959bef-e80b-4628-b212-3c2054155380]

@@ -1,0 +1,2 @@
+exports.ReportHome = 'http://QA_REPORTS:Control*88@mmoyhqasrv15/Reports/Pages/Folder.aspx';
+exports.report314aNoMatch = 'http://mmoyhqasrv15/Reports/Pages/Report.aspx?ItemPath=%2fbsa_SLSIL%2fReports%2f314a+No+Match+Report';

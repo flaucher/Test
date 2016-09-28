@@ -1,0 +1,2 @@
+C:\NODEJS\workSpace\NightWatchDemo\NightWatchDemo\obj\Debug\NightWatchDemo.njsprojResolveAssemblyReference.cache
+C:\NODEJS\workSpace\NightWatchDemo\NightWatchDemo\bin\Microsoft.NodejsTools.WebRole.dll
