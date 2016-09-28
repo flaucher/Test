@@ -9,7 +9,19 @@
 module.exports = {
     'demo test Google' : function (browser) 
     {/// <param name="browser" type="_Browser">
-       
+       browser
+      
+      .url('http://www.google.com')
+      .waitForElementVisible('body', 1000)
+     // .setValue(REPO.txt_BeginDate,"10/10/2010")
+      .setValue(REPO.txt_searchField, 'nightwatch')
+      .waitForElementVisible('button[name=btnG]', 1000)
+      .click('button[name=btnG]')
+      .pause(1000)
+      .verify.containsText('#main', 'Night Watch')
+      //.assert.containsText
+      
+      .end();
     },
 
 
